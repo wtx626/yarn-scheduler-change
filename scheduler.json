@@ -4,7 +4,6 @@
       "type" : "capacity-scheduler",
       "tag"  : "version1531476336459",
       "properties" : {
-        "capacity-scheduler" : "null",
         "yarn.scheduler.capacity.default.minimum-user-limit-percent" : "100",
         "yarn.scheduler.capacity.maximum-am-resource-percent" : "1",
         "yarn.scheduler.capacity.maximum-applications" : "10000",
