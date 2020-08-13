@@ -14,11 +14,14 @@
         "yarn.scheduler.capacity.root.capacity" : "100",
         "yarn.scheduler.capacity.root.default.acl_administer_jobs" : "*",
         "yarn.scheduler.capacity.root.default.acl_submit_applications" : "*",
-        "yarn.scheduler.capacity.root.default.capacity" : "100",
+        "yarn.scheduler.capacity.root.default.capacity" : "90",
         "yarn.scheduler.capacity.root.default.maximum-capacity" : "100",
         "yarn.scheduler.capacity.root.default.state" : "RUNNING",
         "yarn.scheduler.capacity.root.default.user-limit-factor" : "1",
-        "yarn.scheduler.capacity.root.queues" : "default"
+        "yarn.scheduler.capacity.root.queues" : "default,test",
+        "yarn.scheduler.capacity.test.default.capacity" : "10",
+        "yarn.scheduler.capacity.test.default.maximum-capacity" : "100",
+        "yarn.scheduler.capacity.test.default.state" : "RUNNING"
       }
     }
   }
