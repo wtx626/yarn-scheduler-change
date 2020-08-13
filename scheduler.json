@@ -1,6 +1,6 @@
 {
   "Clusters" :  {
-    "desired_config" : [{
+    "desired_config" : {
       "type" : "capacity-scheduler",
       "tag"  : "version1597288375",
       "properties" : {
@@ -23,6 +23,6 @@
         "yarn.scheduler.capacity.root.test.maximum-capacity" : 100,
         "yarn.scheduler.capacity.root.test.state" : "RUNNING"
       }
-    }]
+    }
   }
 }
