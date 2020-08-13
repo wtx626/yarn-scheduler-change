@@ -2,7 +2,7 @@
   "Clusters" :  {
     "desired_config" : {
       "type" : "capacity-scheduler",
-      "tag"  : "version1531476336459",
+      "tag"  : "version1597288375",
       "properties" : {
         "yarn.scheduler.capacity.default.minimum-user-limit-percent" : "100",
         "yarn.scheduler.capacity.maximum-am-resource-percent" : "1",
