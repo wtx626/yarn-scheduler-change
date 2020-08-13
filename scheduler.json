@@ -2,7 +2,7 @@
   "Clusters" :  {
     "desired_config" : {
       "type" : "capacity-scheduler",
-      "tag"  : "version1597304335",
+      "tag"  : "version1597304515",
       "properties" : {
         "yarn.scheduler.capacity.default.minimum-user-limit-percent" : "100",
         "yarn.scheduler.capacity.maximum-am-resource-percent" : "1",
@@ -19,9 +19,9 @@
         "yarn.scheduler.capacity.root.default.state" : "RUNNING",
         "yarn.scheduler.capacity.root.default.user-limit-factor" : "1",
         "yarn.scheduler.capacity.root.queues" : "default,test",
-        "yarn.scheduler.capacity.test.default.capacity" : "10",
-        "yarn.scheduler.capacity.test.default.maximum-capacity" : "100",
-        "yarn.scheduler.capacity.test.default.state" : "RUNNING"
+        "yarn.scheduler.capacity.root.test.capacity" : "10",
+        "yarn.scheduler.capacity.root.test.maximum-capacity" : "100",
+        "yarn.scheduler.capacity.root.test.state" : "RUNNING"
       }
     }
   }
